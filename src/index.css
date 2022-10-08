@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body, #root, .indexStyle {
   height: 100%;
   width: 100%;

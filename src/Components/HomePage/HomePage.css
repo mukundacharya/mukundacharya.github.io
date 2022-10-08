@@ -22,11 +22,12 @@ nav .navbar-nav li a{
     padding-left: 10px;
 }
 .mainDiv {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 768px;
     height: 100%;
-    padding-top: 20px;
-    /* background-color: orange; */
+    padding-top: 50px;
 }
 .profilePic {
     min-height: 150px;
@@ -58,10 +59,72 @@ nav .navbar-nav li a{
     font-weight: 400;
 }
 .nameText {
-    font-weight: 800;
+    background-image: linear-gradient(to right, yellow, orange);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 700;
     font-size: 3rem;
+    letter-spacing: 2px;
 }
 .subText {
     font-size: 1.5rem;
     font-weight: 400
 }
+.aboutMeDiv {
+    padding-top: 80px;
+    min-width: 150px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.aboutMeTitle {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.aboutMePara {
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.25rem;
+}
+#paraLink:link {
+  color: white;
+}
+
+/* mouse over link */
+#paraLink:visited {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #FFDC00;
+}
+
+#paraLink:hover {
+    color: white;
+}
+.smButtonGroup {
+    text-align: center;
+}
+.smButtons {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: black;
+    border: 1px black
+}
+#smLinkId:link {
+    color: white;
+  }
+  
+  /* mouse over link */
+  #smLinkId:visited {
+    color: white;
+  }
+  
+  #smLinkId:hover {
+      color: white;
+  }
