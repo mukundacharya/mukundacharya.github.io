@@ -26,7 +26,6 @@ nav .navbar-nav li a{
     padding-left: 20px;
     padding-right: 20px;
     max-width: 768px;
-    height: 100%;
     padding-top: 50px;
 }
 .profilePic {
@@ -45,7 +44,7 @@ nav .navbar-nav li a{
 }
 
 #nav1 {
-    background-color: #141b1fc9;
+    background-color: #141b1f;
 }
 .nameDiv {
     padding-top: 20px;
@@ -127,4 +126,154 @@ nav .navbar-nav li a{
   
   #smLinkId:hover {
       color: white;
+  }
+  .projectsDiv {
+    padding-top: 80px;
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
+  .projectsTitle {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.projectsPara {
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.25rem;
+}
+.projectsList {
+    padding-top: 24px;
+    margin-top:50px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 80px;
+}
+.projects {
+    min-width: 320px;
+    height: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 15px;
+    background-image: radial-gradient(orange, yellow);
+    position: relative;
+}
+.projectHeading {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    background: black;
+    opacity: 0.85;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
+}
+.techImgDiv {
+    top: -24px;
+    width: 100%;
+    height: 48px;
+    background:transparent;
+    z-index: 10;
+    position: absolute;
+}
+
+.techImage {
+    height: 48px;
+    width: 48px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: black;
+    border-color: 1px solid #141b1f;
+    margin-left: 3px;
+    margin-right:3px;
+    object-fit: cover;
+}
+
+#covid19project {
+    background-image: url(../../assets/face_mask.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#webportfolio {
+    background-image: url(../../assets/web-portf.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+#prodCatalog {
+    background-image: url(../../assets/prodCatalog.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+#kankali {
+    background-image: url(../../assets/kankali.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+#flappybird {
+    background-image: url(../../assets/flappybird.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+#backyard {
+    background-image: url(../../assets/resi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%  
+}
+#emot_det {
+    background-image: url(../../assets/emotion_detection.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%  
+}
+#steamBot {
+    background-image: url(../../assets/steam_bot.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% 
+}
+.projectButtonDiv {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.projectButton {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 170px;
+    border-radius: 100px;
+    background: black;
+    border: 1px black
+}
+#pButton:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  #pButton:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #pButton:hover {
+      color: white;
+      text-decoration: none;
+  }
+  .iconProject {
+    padding-right: 10px;
+  }
+  .footerDiv {
+    background-color: wheat;
+    max-width: 768px;
+    min-height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
   }
