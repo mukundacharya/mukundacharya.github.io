@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c07a75.css",
-    "main.js": "/static/js/main.76999515.js",
+    "main.css": "/static/css/main.2a640087.css",
+    "main.js": "/static/js/main.2f9dcd5f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/face_mask.png": "/static/media/face_mask.ab98cb031a7df18c8072.png",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/flappybird.png": "/static/media/flappybird.5036c2fe4bb0d04246c5.png",
     "static/media/profilepic.jpg": "/static/media/profilepic.2ea2a961c458433f22c3.jpg",
+    "static/media/resi.jpg": "/static/media/resi.42b4c5603ba7da152f49.jpg",
+    "static/media/steam_bot.jpg": "/static/media/steam_bot.f34dd8a556041ac6e601.jpg",
+    "static/media/kankali.png": "/static/media/kankali.30c300b493703ef04f8e.png",
+    "static/media/emotion_detection.jpg": "/static/media/emotion_detection.480fcc0a23d10bc8112a.jpg",
+    "static/media/prodCatalog.png": "/static/media/prodCatalog.d1cae07734396bdc0794.png",
     "static/media/logo-color.png": "/static/media/logo-color.fe29df13e1b430ef4493.png",
+    "static/media/web-portf.png": "/static/media/web-portf.f1ee2e32c89485ebf5f9.png",
     "index.html": "/index.html",
-    "main.e6c07a75.css.map": "/static/css/main.e6c07a75.css.map",
-    "main.76999515.js.map": "/static/js/main.76999515.js.map",
+    "main.2a640087.css.map": "/static/css/main.2a640087.css.map",
+    "main.2f9dcd5f.js.map": "/static/js/main.2f9dcd5f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c07a75.css",
-    "static/js/main.76999515.js"
+    "static/css/main.2a640087.css",
+    "static/js/main.2f9dcd5f.js"
   ]
 }
