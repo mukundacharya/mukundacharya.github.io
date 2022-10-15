@@ -33,9 +33,9 @@ const HomePage = () => {
                         <li class="nav-item">
                             <a className="nav-link navLinks" href="#projects">Projects</a>
                         </li>
-                        {/* <li class="nav-item">
-                            <a className="nav-link" href="/">Certifications and Achivements</a>
-                        </li> */}
+                        <li class="nav-item">
+                            <a className="nav-link" href="#achievements">Achievements</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -179,14 +179,33 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            {/* <div className='footerDiv'>
-                <div className='footerButtons'>
-                    <button title='LinkedIn'><a href="https://www.linkedin.com/in/mukund-n-acharya/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a></button>
-                    <button title='Mail'><a href="mailto: mukumdacharya1@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope"></i></a></button>
-                    <button title='Github'><a href="https://github.com/mukundacharya" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a></button>
+                <div className='certDiv' id='achievements'>
+                    <span className='certTitle'>Achievements</span>
+                    <div className='certPara'>
+                        <ul>
+                            <li>Successfully presented and published the academic paper <a id="paraLink" href="https://ieeexplore.ieee.org/abstract/document/9544683" target="_blank" rel="noopener noreferrer">“COVID-19 Safety Protocol
+                                Monitoring System using AI” </a>in 2021 ASIANCON conducted by the <a id="paraLink" href='https://ieeexplore.ieee.org/xpl/conhome/9544081/proceeding' target="_blank" rel="noopener noreferrer">IEEE Bombaby Section.</a></li>
+                            <li>Won the <a id="paraLink" href='https://www.linkedin.com/feed/update/urn:li:activity:6698484141345792000/' target="_blank" rel="noopener noreferrer">‘Code for Good 2020’</a> Social Good Hackathon conducted by JPMorgan Chase
+                                & Co.</li>
+                            <li>Won GEM Award for valuable contribution to the squad goals by Danske Bank</li>
+                            <li>Certified in many technologies like Neural Networks, IoT, Java and many more from many reputed certification 
+                                institutions</li>
+                        </ul>
+                    </div>
                 </div>
-            </div> */}
+            </div>
+            <div className='footerDiv'>
+                <div className='footerContent'>
+                    <div className='footerButton'>
+                        <button className='foButtons' title='LinkedIn'><a id='foLinkId' href="https://www.linkedin.com/in/mukund-n-acharya/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a></button>
+                        <button className='foButtons' title='Mail'><a id='foLinkId' href="mailto: mukumdacharya1@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope"></i></a></button>
+                        <button className='foButtons' title='Github'><a id='foLinkId' href="https://github.com/mukundacharya" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a></button>
+                    </div>
+                    <div className='footerText'>
+                        <span className='footerTextSpan'>Developed with ❤️ by Mukund Acharya © {new Date().getFullYear()}</span>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

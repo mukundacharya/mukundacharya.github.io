@@ -1,7 +1,7 @@
 .background {
     width: 100%;
     height: 100%;
-    background-color : #141b1f;
+    background-color: #141b1f;
     overflow: auto;
 }
 
@@ -9,18 +9,22 @@
     padding-left: 20px;
     width: 15%;
 }
+
 .nav-item {
     padding-left: 10px;
     padding-right: 10px;
 }
-nav .navbar-nav li a{
+
+nav .navbar-nav li a {
     color: #b3b3b3 !important;
     font-weight: 700;
     font-size: 20px;
 }
+
 .navbar-collapse {
     padding-left: 10px;
 }
+
 .mainDiv {
     margin: auto;
     padding-left: 20px;
@@ -28,6 +32,7 @@ nav .navbar-nav li a{
     max-width: 768px;
     padding-top: 50px;
 }
+
 .profilePic {
     min-height: 150px;
     min-width: 150px;
@@ -39,6 +44,7 @@ nav .navbar-nav li a{
     border-radius: 50%;
     margin: auto;
 }
+
 .navbar-toggler {
     margin-right: 20px;
 }
@@ -46,6 +52,7 @@ nav .navbar-nav li a{
 #nav1 {
     background-color: #141b1f;
 }
+
 .nameDiv {
     padding-top: 20px;
     min-width: 150px;
@@ -53,10 +60,12 @@ nav .navbar-nav li a{
     color: white;
     text-align: center;
 }
+
 .helloText {
     font-size: 3rem;
     font-weight: 400;
 }
+
 .nameText {
     background-image: linear-gradient(to right, yellow, orange);
     color: transparent;
@@ -64,12 +73,13 @@ nav .navbar-nav li a{
     -webkit-background-clip: text;
     font-weight: 700;
     font-size: 3rem;
-    letter-spacing: 2px;
 }
+
 .subText {
     font-size: 1.5rem;
     font-weight: 400
 }
+
 .aboutMeDiv {
     padding-top: 80px;
     min-width: 150px;
@@ -77,11 +87,13 @@ nav .navbar-nav li a{
     color: white;
     text-align: center;
 }
+
 .aboutMeTitle {
     color: white;
     font-size: 2.5rem;
     font-weight: 700;
 }
+
 .aboutMePara {
     padding-top: 10px;
     width: 100%;
@@ -89,23 +101,26 @@ nav .navbar-nav li a{
     text-align: left;
     font-size: 1.25rem;
 }
+
 #paraLink:link {
-  color: white;
+    color: white;
 }
 
 /* mouse over link */
 #paraLink:visited {
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: #FFDC00;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #FFDC00;
 }
 
 #paraLink:hover {
     color: white;
 }
+
 .smButtonGroup {
     text-align: center;
 }
+
 .smButtons {
     margin-left: 10px;
     margin-right: 10px;
@@ -115,29 +130,33 @@ nav .navbar-nav li a{
     background: black;
     border: 1px black
 }
+
 #smLinkId:link {
     color: white;
-  }
-  
-  /* mouse over link */
-  #smLinkId:visited {
+}
+
+/* mouse over link */
+#smLinkId:visited {
     color: white;
-  }
-  
-  #smLinkId:hover {
-      color: white;
-  }
-  .projectsDiv {
+}
+
+#smLinkId:hover {
+    color: white;
+}
+
+.projectsDiv {
     padding-top: 80px;
     margin: auto;
     color: white;
     text-align: center;
-  }
-  .projectsTitle {
+}
+
+.projectsTitle {
     color: white;
     font-size: 2.5rem;
     font-weight: 700;
 }
+
 .projectsPara {
     padding-top: 10px;
     width: 100%;
@@ -145,9 +164,10 @@ nav .navbar-nav li a{
     text-align: left;
     font-size: 1.25rem;
 }
+
 .projectsList {
     padding-top: 24px;
-    margin-top:50px;
+    margin-top: 50px;
     width: 100%;
     height: 450px;
     display: flex;
@@ -156,6 +176,7 @@ nav .navbar-nav li a{
     overflow-y: hidden;
     margin-bottom: 80px;
 }
+
 .projects {
     min-width: 320px;
     height: 100%;
@@ -165,6 +186,7 @@ nav .navbar-nav li a{
     background-image: radial-gradient(orange, yellow);
     position: relative;
 }
+
 .projectHeading {
     width: 90%;
     margin: auto;
@@ -175,11 +197,12 @@ nav .navbar-nav li a{
     font-size: 1.25rem;
     color: white;
 }
+
 .techImgDiv {
     top: -24px;
     width: 100%;
     height: 48px;
-    background:transparent;
+    background: transparent;
     z-index: 10;
     position: absolute;
 }
@@ -192,7 +215,7 @@ nav .navbar-nav li a{
     background-color: black;
     border-color: 1px solid #141b1f;
     margin-left: 3px;
-    margin-right:3px;
+    margin-right: 3px;
     object-fit: cover;
 }
 
@@ -207,42 +230,50 @@ nav .navbar-nav li a{
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
+
 #prodCatalog {
     background-image: url(../../assets/prodCatalog.png);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
+
 #kankali {
     background-image: url(../../assets/kankali.png);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
+
 #flappybird {
     background-image: url(../../assets/flappybird.png);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
+
 #backyard {
     background-image: url(../../assets/resi.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%  
+    background-size: 100% 100%
 }
+
 #emot_det {
     background-image: url(../../assets/emotion_detection.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%  
+    background-size: 100% 100%
 }
+
 #steamBot {
     background-image: url(../../assets/steam_bot.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100% 
+    background-size: 100% 100%
 }
+
 .projectButtonDiv {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
 }
+
 .projectButton {
     margin-bottom: 10px;
     height: 50px;
@@ -251,29 +282,100 @@ nav .navbar-nav li a{
     background: black;
     border: 1px black
 }
+
 #pButton:link {
     color: white;
     text-decoration: none;
-  }
-  
-  /* mouse over link */
-  #pButton:visited {
+}
+
+/* mouse over link */
+#pButton:visited {
     color: white;
     text-decoration: none;
-  }
-  
-  #pButton:hover {
-      color: white;
-      text-decoration: none;
-  }
-  .iconProject {
+}
+
+#pButton:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.iconProject {
     padding-right: 10px;
-  }
-  .footerDiv {
-    background-color: wheat;
+}
+
+.footerDiv {
     max-width: 768px;
     min-height: 150px;
     margin: auto;
     display: flex;
     flex-direction: row;
-  }
+}
+
+.footerContent {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerButton {
+    height: 50%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footerText {
+    height: 50%;
+    text-align: center;
+}
+
+.footerTextSpan {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: white;
+}
+
+.foButtons {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: black;
+    border: 1px black
+}
+
+#foLinkId:link {
+    color: white;
+}
+
+/* mouse over link */
+#foLinkId:visited {
+    color: white;
+}
+
+#foLinkId:hover {
+    color: white;
+}
+
+.certDiv {
+    min-width: 150px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.certTitle {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.certPara {
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.25rem;
+}
